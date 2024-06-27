@@ -1,20 +1,22 @@
-# Using Node.js and http-server
-Getting the **.csv** file, requires a server. Add the files into your HTTP folder or use Node.js. You can use the http-server package to start a local web server:
+# Requirements
+The code can use the **.csv** file with the help of a server. Add the files into your HTTP folder or use Node.js.
 
-Install **http-server** globally:
+## Install Node.js and http-server
+You can use the **http-server** package to start a local web server. Here's how you do it:
+
+1. Install **http-server** globally:
 
 ```
 npm install -g http-server
 ```
 
-Navigate to the directory containing your project.
-Start the server:
+2. Navigate to the directory containing your project. Start the server:
 
 ```
 http-server -p 8000
 ```
 
-This will start a local web server at [localhost:8000](http://localhost:8000).
+3. This will start a local web server at [localhost:8000](http://localhost:8000).
 
 # Engineering Challenge
 
