@@ -3,12 +3,16 @@ Getting the **.csv** file, requires a server. Add the files into your HTTP folde
 
 Install **http-server** globally:
 
-```npm install -g http-server```
+```
+npm install -g http-server
+```
 
 Navigate to the directory containing your project.
 Start the server:
 
-```http-server -p 8000```
+```
+http-server -p 8000
+```
 
 This will start a local web server at [localhost:8000](http://localhost:8000).
 
